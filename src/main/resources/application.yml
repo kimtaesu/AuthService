@@ -1,0 +1,11 @@
+spring.application.name: uaa-service
+
+server:
+  port: 9999
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    sso:
+      login-path: /login
